@@ -3,16 +3,59 @@
   margin-bottom: 6rem;
   text-align: center;
 }
+.header .title {
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+.header .subtitle {
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 1.8rem;
+}
+.header .blurb {
+  color: #333;
+}
 .section {
   border-top: 1px solid #eee;
   padding: 4rem 0;
   margin-bottom: 0;
+}
+.contacts {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  text-align: center;
 }
 .section .title {
   text-transform: uppercase;
   font-size: 1.8rem;
   letter-spacing: 0.2rem;
   font-weight: 600;
+}
+.section .subtitle {
+  font-size: 1.6rem;
+  letter-spacing: 0.05rem;
+  font-weight: 400;
+}
+.section .subtitle a {
+  font-weight: 800;
+}
+.star {
+  font-size: 2.5rem;
+  color: cornflowerblue;
+}
+.rating {
+  text-align: right;
+}
+.year {
+  color: #555;
+  font-size: 1.5rem;
+}
+a {
+  font-weight: bold;
+  color: cornflowerblue;
+  border-bottom: 2px solid cornflowerblue;
+  text-decoration: none;
 }
 body {
   font-family: 'Lora', serif;

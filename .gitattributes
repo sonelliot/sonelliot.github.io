@@ -1,0 +1,6 @@
+# -*- mode: sh; -*-
+
+# Force automatic line endings for text files. Useful for keeping people on
+# Windows from commiting CRLF endings.
+
+* text=auto

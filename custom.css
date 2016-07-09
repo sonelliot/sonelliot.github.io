@@ -60,3 +60,11 @@ a {
 body {
   font-family: 'Lora', serif;
 }
+@media (max-width: 480px) {
+  .rating {
+    text-align: center;
+  }
+  .star {
+    font-size: 2rem;
+  }
+}

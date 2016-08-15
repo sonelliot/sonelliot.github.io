@@ -1,2 +1,3 @@
 * TODO Add a photo of myself :-|
-* TODO Add a link to a PDF version
+* DONE Add a link to a PDF version
+CLOSED: [2016-08-15 Mon 13:02]

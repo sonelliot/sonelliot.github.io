@@ -1,14 +1,14 @@
-I have been working
-at [Immersive Technologies](http://www.immersivetechnologies.com/) since
-June, 2010. During that time I have worked on challenging projects and with a
-variety of technologies. These are some of the things I worked on:
+I have worked at [Immersive Technologies](http://www.immersivetechnologies.com/)
+since June, 2010. During this time I have participated in a variety of
+challenging projects and worked with a range of technologies. Examples of this
+include:
 
-* worked with a legacy `C++` codebase,
-* worked with .NET technologies like `WinForms`, `WPF` and `ASP.NET`,
-* helped to improve the depth perception and graphics fidelity in the simulation
-  software using `DirectX9` and `HLSL`,
-* created and help to maintain several internal tools,
-* acted as project lead on several successful projects, 
-* developed web applications using modern web technologies (`React.js`,
-  `Node.js` etc),
-* participated and led several study groups
+* working with a legacy `C++` codebase,
+* working with .NET technologies such as `WinForms`, `WPF` and `ASP.NET`,
+* helping to improve the depth perception and graphics fidelity of the
+  simulation software using `DirectX9` and `HLSL`,
+* developing and maintaining internal tools,
+* acting as project lead on several successful projects, 
+* developing web applications using modern web technologies (`React.js`,
+  `Node.js` etc) and,
+* participating and leading study groups.

@@ -27,15 +27,17 @@
 }
 .section .title {
   text-transform: lowercase;
-  font-size: 3.4rem;
+  font-size: 3.6rem;
   letter-spacing: 0.3rem;
   font-weight: 600;
   margin-bottom: 3rem;
 }
 .section .subtitle {
-  font-size: 1.6rem;
-  letter-spacing: 0.05rem;
+  font-weight: bold;
+  text-transform: lowercase;
+  letter-spacing: 0.2rem;
   font-weight: 400;
+  margin-top: 1.5em;
 }
 .section .subtitle a {
   font-weight: 800;

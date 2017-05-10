@@ -2,11 +2,8 @@
 <html lang="en">
   <head>
     <title>Elliot Bulmer</title>
-    <!-- Nice serif font -->
+    <!-- Nice fonts -->
     <link href='https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab' rel='stylesheet' type='text/css'>
-    <!-- Nice icons -->
-    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
-          rel="stylesheet" type="text/css">
     <!-- Skeleton CSS -->
     <link rel="stylesheet" href="normalize.css"></link>
     <link rel="stylesheet" href="skeleton.css"></link>
@@ -31,20 +28,59 @@
       <div class="section">
         <h4 class="title">About</h4>
         <p class="md">
-          I am a creator. I enjoy writing all sorts of computer programs: video
-          games, web apps, command-line tools etc. I became enamoured with
-          *Lisp* shortly after graduating and I am a keen advocate of the
-          *Functional Programming* style. I believe it is one of our best tools
-          for writing robust, understandable code.
+          I enjoy writing all sorts of computer programs: video games, web apps,
+          command-line tools etc. I became enamoured with *Lisp* shortly after
+          graduating University and I am a keen advocate of the *Functional
+          Programming* style. I believe it is one of our best tools for writing
+          robust, understandable code.
         </p>
+      </div>
+      <div class="section">
+        <h4 class="title">Education</h4>
+        <p class="md">
+          I majored in *Games Programming* and *Software Engineering* at Edith
+          Cowan University (2006 - 2009) and graduated with distinction. While I
+          was there I worked on some interesting projects, including:
+        </p>
+        <h4 class="subtitle">a mobile puzzle game</h4>
+        <p class="md">
+          I wrote a small puzzle game for the original iPhone using OpenGLES and
+          `Objective-C`. The objective of the game was to mix different coloured
+          blobs together in order to get a target colour. I used
+          [metaballs](https://en.wikipedia.org/wiki/Metaballs) to create a lava
+          lamp like effect. The nature of this algorithm made it difficult to
+          achieve a good framerate on the physical device, so I spent a long
+          time optimizing the code for better performance.
+        </p>
+        <h4 class="subtitle">an autonomous submarine simulation</h4>
+        <p class="md">
+          For my final year project I worked with a post-grad student from
+          [UWA](http://www.uwa.edu.au) to make improvements to an existing
+          submarine simulation program developed by the University. My task was
+          to integrate a CUDA-powered particle simulation, that I had developed
+          in a previous unit, into the existing codebase to create more
+          realistic water acting on the submarine body.
+        </p>
+        <p class="md">
+          In the end we could not simulate enough particles in realtime to
+          maintain a stable simulation. It was an interesting project and the
+          outcome may have been different with today's hardware.
+        </p>
+      </div>
+      <div class="section">
+        <h4 class="title">immersive</h4>
+        <p class="md" id="immtec"></p>
+      </div>
+      <div class="section">
+        <h4 class="title">gamedev</h4>
+        <p class="md" id="gamedev"></p>
       </div>
       <div class="section">
         <h4 class="title">Languages</h4>
         <p class="md">
-          Professionally, over the last seven years I have written more `C#` and
-          `C++` than any other language. Recently I have been writing a lot of
-          `Javascript` (ES6+) while developing web applications using `React.js`
-          and `Redux.js`.
+          Professionally, over the last seven years I have mainly written `C#`
+          and `C++`. Recently I have been writing a lot of `Javascript` (ES6+) while
+          developing web applications using `React.js` and `Node.js`.
         </p>
         <p class="md">
           In my free time I like to study programming languages. I started
@@ -55,105 +91,29 @@
         <ul>
           <li><code>C#</code> (advanced)</li>
           <li><code>C++</code> (intermediate)</li>
-          <li><code>Javascript</code> (intermediate)</li>
+          <li><code>Javascript</code>, <code>CoffeeScript</code>, <code>ES6</code> (intermediate)</li>
           <li><code>Clojure/Script</code>, <code>Common Lisp</code> (intermediate)</li>
           <li><code>Rust</code>, <code>F#</code> (beginner)</li>
+          <li><code>Python</code>, <code>Ruby</code> (just a little bit)</li>
         </ul>
       </div>
       <div class="section">
-        <h4 class="title">Technologies</h4>
-        <div>
-          <table class="u-full-width">
-            <tbody>
-              <tr>
-                <td>Unity3D</td>
-                <td class="rating">
-                  <span class="ion-ios-circle-filled star">
-                  <span class="ion-ios-circle-filled star">
-                  <span class="ion-ios-circle-filled star">
-                  <span class="ion-ios-circle-outline star">
-                  <span class="ion-ios-circle-outline star">
-                </td>
-              </tr>
-              <tr>
-                <td>MonoGame (XNA)</td>
-                <td class="rating">
-                  <span class="ion-ios-circle-filled star">
-                  <span class="ion-ios-circle-filled star">
-                  <span class="ion-ios-circle-filled star">
-                  <span class="ion-ios-circle-outline star">
-                  <span class="ion-ios-circle-outline star">
-                </td>
-              </tr>
-              <tr>
-                <td>HTML5</td>
-                <td class="rating">
-                  <span class="ion-ios-circle-filled star">
-                  <span class="ion-ios-circle-filled star">
-                  <span class="ion-ios-circle-filled star">
-                  <span class="ion-ios-circle-outline star">
-                  <span class="ion-ios-circle-outline star">
-                </td>
-              </tr>
-              <tr>
-                <td>NodeJS</td>
-                <td class="rating">
-                  <span class="ion-ios-circle-filled star">
-                  <span class="ion-ios-circle-filled star">
-                  <span class="ion-ios-circle-filled star">
-                  <span class="ion-ios-circle-outline star">
-                  <span class="ion-ios-circle-outline star">
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div class="section">
-        <h4 class="title">Skills</h4>
-        <ul>
-          <li>Deep understanding of both <i>Object-Oriented</i> and <i>Functional</i> programming styles.</li>
-          <li>Proficiency with Git and other VCS.</li>
-          <li>Proficiency with Emacs and Unix command line programs.</li>
-          <li>Proficiency with SQL and NQSQL databases.</li>
-          <li>Proficiency with web technologies such as ReactJS and NodeJS.</li>
-          <li>Understanding of the shader model and familiarity with GLSL & HLSL.</li>
-          <li>Strong understanding of unit testing best practices.</li>
-          <li>Good organization and communication skills.</li>
-        </ul>
-      </div>
-      <div class="section">
-        <h4 class="title">Experience</h4>
-        <h5 class="subtitle">
-          <a href="http://www.immersivetechnologies.com/">Immersive Techologies</a>
-          <i class="year">(2010 - Present)</i>
-        </h5>
-        <ul>
-          <li>Worked on many projects and with a broad range of technologies (.NET, C++ & Web).</li>
-          <li>Led several successful Software projects to completion.</li>
-          <li>Gained experience working in an Agile environment.</li>
-          <li>Gained experience working in a legacy code base.</li>
-        </ul>
-        <h5 class="subtitle">
-          <a href="http://www.gnomicstudios.com/">Gnomic Studios</a>
-          <i class="year">(2013 - 2015)</i>
-        </h5>
-        <ul>
-          <li>Worked as a gameplay programmer on the indie game Square Heroes.</li>
-          <li>Manned the booth at PAX AUS (2013 & 2014) to show-off the game.</li>
-        </ul>
-      </div>
-      <div class="section">
-        <h4 class="title">Education</h4>
-        <h5 class="subtitle">Bachelor of Computer Science - Edith Cowan <i class="year">(2006 - 2009)</i></h5>
-        <ul>
-          <li>Major in Software Engineering.</li>
-          <li>Major in Games Programming.</li>
-          <li>Graduated with Distinction.</li>
-        </ul>
+        <h4 class="title">tools</h4>
+        <p class="md">
+          I am a command-line enthusiast and my chosen shell is
+          [Fish](https://fishshell.com/), although I'm just as comfortable with
+          Bash. When I'm writing code I almost exclusively use Emacs with the
+          amazing [Spacemacs](http://spacemacs.org/) configuration package. I am
+          familiar with `Git` and many other Unix CLI programs (e.g. `sed`, `vi`
+          etc).
+        </p>
       </div>
       <div class="section">
         <h4 class="title">Reading</h4>
+        <p class="md">
+          I aim to read at least one programming book a year. These are some of
+          my favourites:
+        </p>
         <ul class="reading">
           <li>
             <a href="https://mitpress.mit.edu/books/structure-and-interpretation-computer-programs">
@@ -175,8 +135,8 @@
             </a>
           </li>
           <li>
-            <a href="https://www.amazon.com/Art-Game-Design-book-lenses/dp/0123694965">
-              The Art of Game Design: A book of lenses
+            <a href="http://www.gigamonkeys.com/book/">
+              Pratical Common Lisp
             </a>
           </li>
           <li>
@@ -187,20 +147,20 @@
         </ul>
       </div>
       <div class="section">
-        <h4 class="title">Extracurricular</h4>
-        <ul>
-          <li>Studied many different programming languages, including: Lisp, Clojure, F#, Ruby, Python, Rust etc.</li>
-          <li>Participated in multiple game jams, including the GGJ and Ludum Dare.</li>
-          <li>Small contributions to various Open Source projects.</li>
-        </ul>
+        <h4 class="title">non-work</h4>
+        <p class="md">
+          I like to tinker with my many side-projects outside of work. Other
+          than that, it's pretty much craft beer, video games and fishing.
+        </p>
       </div>
     </div>
-    <script>
-     var elements = document.getElementsByClassName('md');
-     for (var i = 0; i < elements.length; ++i) {
-       var element = elements[i];
-       element.innerHTML = marked(element.innerText);
-     }
-    </script>
+    <script src="cv.js" type="text/javascript"></script>
+    <!-- <script> -->
+    <!-- var elements = document.getElementsByClassName('md'); -->
+    <!-- for (var i = 0; i < elements.length; ++i) { -->
+    <!-- var element = elements[i]; -->
+    <!-- element.innerHTML = marked(element.innerText); -->
+    <!-- } -->
+    <!-- </script> -->
   </body>
 </html>
